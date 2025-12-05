@@ -1,0 +1,70 @@
+/* RTL Support for Arabic */
+[dir="rtl"] {
+    font-family: 'Cairo', 'Outfit', sans-serif;
+}
+
+[dir="rtl"] .nav-menu {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav-link::after {
+    left: auto;
+    right: 0;
+}
+
+[dir="rtl"] .hero-buttons {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .service-link {
+    direction: ltr;
+}
+
+[dir="rtl"] .feature-item,
+[dir="rtl"] .contact-item {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer-grid {
+    direction: rtl;
+}
+
+[dir="rtl"] .footer h4::after {
+    left: auto;
+    right: 0;
+}
+
+[dir="rtl"] .footer-contact li {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .breadcrumb {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .about-experience {
+    right: auto;
+    left: -20px;
+}
+
+[dir="rtl"] .form-row {
+    direction: rtl;
+}
+
+[dir="rtl"] .pricing-features li {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .service-features-list li {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .menu-toggle {
+    order: -1;
+}
+
+@media (max-width: 992px) {
+    [dir="rtl"] .nav-menu {
+        flex-direction: column;
+    }
+}
