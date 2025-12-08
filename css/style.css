@@ -215,3 +215,13 @@ img { max-width: 100%; display: block; }
     .footer h4::after { left: 50%; transform: translateX(-50%); }
     .service-features-list { grid-template-columns: 1fr; }
 }
+
+/* Footer Social Links */
+.footer-social { display: flex; gap: 12px; margin-top: 20px; }
+.social-btn { width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; color: var(--white); transition: var(--transition); border: 1px solid rgba(255,255,255,0.1); }
+.social-btn svg { width: 18px; height: 18px; fill: currentColor; }
+.social-btn:hover { background: var(--primary); border-color: var(--primary); transform: translateY(-3px); }
+.social-btn.linkedin:hover { background: #0077b5; border-color: #0077b5; }
+.social-btn.x-twitter:hover { background: #000000; border-color: #ffffff; }
+.social-btn.facebook:hover { background: #1877f2; border-color: #1877f2; }
+.social-btn.whatsapp:hover { background: #25d366; border-color: #25d366; }
