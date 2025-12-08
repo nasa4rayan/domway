@@ -172,7 +172,7 @@ img { max-width: 100%; display: block; }
 .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
 .footer-brand .logo { font-size: 1.6rem; margin-bottom: 15px; display: inline-block; }
 .footer-brand p { color: rgba(255,255,255,0.6); font-size: 0.9rem; }
-.footer h4 { font-size: 1rem; margin-bottom: 20px; position: relative; padding-bottom: 12px; }
+.footer h4 { font-size: 1rem; margin-bottom: 20px; position: relative; padding-bottom: 12px; color: var(--white); }
 .footer h4::after { content: ''; position: absolute; bottom: 0; left: 0; width: 30px; height: 2px; background: var(--primary); }
 .footer-links li { margin-bottom: 10px; }
 .footer-links a { color: rgba(255,255,255,0.6); font-size: 0.9rem; }
